@@ -7,7 +7,7 @@ spec:
   parameters:
     region: "us-east-1"
     ami: "ami-0e670eb768a5fc3d4"
-    instanceType: "t2.medium"
-    keyName: "keys"
+    instanceType: "t2.small"
+    keyName: "demo-keypair"
   compositionRef:
     name: ec2-instance
